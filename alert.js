@@ -1,8 +1,19 @@
-const onlyButton = document.querySelector('.btn');
+const buttonOne = document.querySelector('.btn-1');
+const buttonTwo = document.querySelector('.btn-2');
+const container = document.querySelector('.container');
+const buttonThree = document.querySelector('.btn-3');
 
-function setAlert(){
-    alert('I love Javascript');
-    
-}
+    function setAlert() {
+        alert('I love Javascript');
 
-onlyButton.addEventListener('click', setAlert);
+    }
+    function changeBgcolor(){
+        container.classList.add('containerChange');
+    }
+
+    function tranformButton(){
+
+    }
+
+buttonOne.addEventListener('click', setAlert);
+buttonTwo.addEventListener('click', changeBgcolor);

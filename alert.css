@@ -1,4 +1,33 @@
 :root {
     --primary-color: white;
     --secondary-color: rgb(20, 18, 18); 
+    --con-bg: rgb(140, 140, 197);
+    --switch-color: red;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    background-color: var(--con-bg);
+    width: 100%;
+
+}
+
+
+.containerChange {
+    background-color: var(--switch-color);
+    width: 100%;
+}
+
+
+
+
+button {
+    background: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 9px;
+    padding: 20px;
+    cursor: pointer;
 }
