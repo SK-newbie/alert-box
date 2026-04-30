@@ -5,15 +5,15 @@ const buttonThree = document.querySelector('.btn-3');
 
     function setAlert() {
         alert('I love Javascript');
-
     }
     function changeBgcolor(){
         container.classList.add('containerChange');
     }
 
     function tranformButton(){
-
+        container.classList.remove('containerChange');
     }
 
 buttonOne.addEventListener('click', setAlert);
 buttonTwo.addEventListener('click', changeBgcolor);
+buttonThree.addEventListener('click', tranformButton)

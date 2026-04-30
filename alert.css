@@ -11,8 +11,9 @@ body {
 
 .container {
     background-color: var(--con-bg);
-    width: 100%;
-
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
 }
 
 
@@ -20,9 +21,6 @@ body {
     background-color: var(--switch-color);
     width: 100%;
 }
-
-
-
 
 button {
     background: none;
